@@ -1,0 +1,26 @@
+/**
+ * Modules / Page
+ * Page module for setting up global styles for pages
+ */
+
+.page {
+    display: block;
+}
+
+.page--middle {
+    height: 100vh;
+}
+
+.page__content {
+    position: relative;
+    padding: 20px;
+}
+
+.page__content--middle {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page__content--center {
+    text-align: center;
+}

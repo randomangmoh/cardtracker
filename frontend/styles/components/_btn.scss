@@ -1,0 +1,20 @@
+// Config
+@import '../config/palette';
+
+/**
+ * Components / Button
+ * General button component used site-wide.
+ */
+.btn {
+    position: relative;
+}
+
+.btn--primary {
+    width: 100%;
+    height: auto;
+    background-color: $color-secondary;
+    border: 0;
+    padding: 15px;
+    border-radius: 50px;
+    color: $color-white;
+}

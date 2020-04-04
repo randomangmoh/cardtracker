@@ -1,0 +1,14 @@
+/**
+ * Util / Placeholder
+ * Mixin for styling placeholder text
+ */
+
+@mixin placeholder {
+
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder           {@content}
+    &::-moz-placeholder          {@content}
+    &:-ms-input-placeholder      {@content}  
+    &::placeholder               {@content}
+
+}

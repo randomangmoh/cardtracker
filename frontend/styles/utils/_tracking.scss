@@ -1,0 +1,8 @@
+/**
+ * Utils / Tracking
+ * Tracking util for photoshop letter spacing
+ */
+
+@function tracking( $target ){
+    @return ($target / 1000) * 1em;
+}

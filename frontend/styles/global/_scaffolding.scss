@@ -1,0 +1,19 @@
+// Config
+@import '../config/fonts';
+@import '../config/palette';
+
+/**
+ * Global / Scaffolding
+ * Styles used site-wide / boilerplate styles
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: $font-primary;
+    background-color: $color-primary;
+    color: $color-white;
+}
