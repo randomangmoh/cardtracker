@@ -1,0 +1,51 @@
+// Config
+@import '../config/palette';
+
+// Utils
+@import '../utils/aspect-ratio';
+
+
+/**
+ * Component / Tile
+ * Used mainly on the home page but it's here if need be.
+ */
+
+.tiles {
+    margin: 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tile {
+    width: calc(50% - 10px);
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: $color-blue-dark;
+}
+
+.tile--active {
+    background: rgb(253,78,32);
+    background: linear-gradient(45deg, rgba(253,78,32,1) 0%, rgba(252,108,70,1) 100%);
+}
+
+.tile__inner {
+    @include aspect-ratio();
+}
+
+.tile__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile__title {
+    display: block;
+    font-weight: 300;
+    color: $color-blue-light;
+
+    .tile--active & {
+        color: $color-white;
+    }
+
+}

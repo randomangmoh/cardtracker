@@ -1,11 +1,13 @@
 // Utils
 @import '../utils/tracking';
+@import '../utils/rem';
 
 /**
  * Components / Logo
  */
 
 .logo {
+    margin: 0;
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -15,4 +17,8 @@
         font-weight: 400;
     }
 
+}
+
+.logo--small {
+    font-size: rem(18px);
 }

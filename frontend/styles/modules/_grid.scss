@@ -9,7 +9,7 @@
  $av-modifier-class-chain:   '--' !default;        // Chain characters between block and modifier
  $av-breakpoint-class-chain: '--' !default;        // Chain characters between width and breakpoint
  
- $av-gutter:                 20px !default;        // Gutter between grid cells
+ $av-gutter:                 0px !default;        // Gutter between grid cells
  
  $av-width-class-namespace:  '' !default;          // Prefix namespace for width classes. For example; 'col-'
  $av-width-class-style:      'fraction' !default;  // Width class naming style. Can be 'fraction', 'percentage' or 'fragment'

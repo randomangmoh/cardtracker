@@ -1,0 +1,56 @@
+// Config
+@import '../config/palette';
+
+// Utils
+@import '../utils/rem';
+
+/**
+ * Component / Search Bar
+ * A widely used component for dynamically searching for cards
+ */
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar__wrap {
+    position: relative;
+    display: flex;
+    height: auto;
+    padding: 7px;
+    border-radius: 50px;
+    color: $color-blue-light;
+}
+
+.search-bar__input {
+    display: block;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    color: $color-blue-light;
+}
+
+.search-bar__search {
+    display: block;
+    width: 15%;
+    color: $color-blue-light;
+    background: none;
+    -webkit-appearance: none;
+    border: 0;
+    outline: none;
+}
+
+.search-bar__advanced {
+
+    small {
+        display: block;
+        margin: 10px 0 0 10px;
+        font-size: rem(10px);
+        text-decoration: underline;
+        color: $color-blue-light;
+    }
+
+}

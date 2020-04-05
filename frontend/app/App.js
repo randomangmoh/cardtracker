@@ -34,7 +34,7 @@ class App extends Component {
      */
     render() {
         return (    
-           <Login />
+           <Home />
         )
     }
 
